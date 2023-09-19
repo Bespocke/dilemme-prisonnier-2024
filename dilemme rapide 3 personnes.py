@@ -68,7 +68,7 @@ def score(arr1: np.ndarray, arr2: np.ndarray, arr3: np.ndarray):
 
 
 
-def tournoi(T, P, C, D, strats: tuple):
+def tournoi(T, P, C, D, strats: tuple): # à modifier pour la faire tourner avec 3 personnes
     scores = {}
     total_scores = {}
     n = rd.randint(500, 1000)
